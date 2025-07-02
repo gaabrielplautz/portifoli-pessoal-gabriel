@@ -1,0 +1,15 @@
+.bordas{
+    margin:5px;
+    border-radius:3px;
+}
+.botao{
+    color:white;
+    background-color:black;
+}
+
+.problema{
+    background-color:red;
+    color:white;
+    margin: 5px;
+    padding: 5px;
+}

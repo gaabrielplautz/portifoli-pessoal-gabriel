@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <!-- titulo da página -->
+    <title>PORTIFÓLIO PESSOAL (CV online)</title>
+    
+    <!--Esta propriedade link esta importando o estilo css para está pagina a qual usará as definições css contidas no arquivo estilo.css-->
+    <link rel="stylesheet" href="CSS/estilo.css">
+</head>
+<body>
+    <!-- a class container é uma especie de caixa onde conteudo da página fica dentro e tambem ela define os padrões gerais -->
+    <div class="container">
+        <!-- Temos aqui a tag que demarca o cabeçalho contentendo a class header responsável pela estilização-->
+        <header class="header">
+            <h1 class="titulo_rodape">PORTIFÓLIO PESSOAL (CV online)</h1>
+        </header>
+        <!-- Abaixo temos um menu criado utilizando uma lista não ordenada -->
+        <nav class="nav">
+            <ul>
+                <li><a href="index.html">Sobre mim</a></li>
+                <li><a href="formacao.html">Formação</a></li>
+                <li><a href="projetos.html">Meus projetos</a></li>
+                <li><a href="contato.html">Contato</a></li>
+            </ul>
+        </nav>
+        <!-- Aréa que fica ao lado esquerdo da tela contendo uma imagem e descrição -->
+        <aside class="aside">
+            <img src="img/gabriel.jpg" width="150px">
+                <p><strong>GABRIEL PLAUTZ</strong></p>
+                <p><strong>Cursando: </strong>Analise e desenvolvimento de sistemas</p>
+                <p>
+                    <strong>Data do nascimento:</strong>
+                    23/04/98
+                </p>
+
+        </aside>
+        <!-- dentro da tag section fica o conteudo da página prooriamente dito -->
+        <section class="section">
+            <!--Nesta linha utilizamos css inline para estilizar este elemento H1 de forma diferente dos demais que herdaram a estilização que foi definida no estilo.css-->
+            <h1 style="color:black; text-align:left ;">FORMAÇÃO</h1>
+            <p>
+                <ul>
+                    <li>Cursando graduação em Análise e desenvolvimento de Sistemas</li>
+                    <li>Ensino médio concluido em 2015</li>
+                    <li>Curso de Técnico em informática concluído em 2015</li>
+                    <li>Curso de Espanhol concluído em 2015</li>
+                </ul>
+            </p>
+        </section>
+        <!-- A tag footer demarca o rodapé da página -->
+        <footer class="footer">
+            <h1 class="titulo_rodape">Desenvolvido para fins educacionais</h1>
+        </footer>
+    </div>
+</body>
+</html>

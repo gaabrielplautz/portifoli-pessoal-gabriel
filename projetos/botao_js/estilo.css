@@ -1,0 +1,10 @@
+
+
+.conteudo {
+    border: 3px solid black;
+    left: 50px;
+    bottom: 10px;
+    display:block;
+    width: max-content ;
+    background-color:yellowgreen;
+}
